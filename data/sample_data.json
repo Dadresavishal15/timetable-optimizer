@@ -1,0 +1,37 @@
+{
+  "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+  "periods_per_day": 4,
+
+  "rooms": [
+    {"room_id": "R101", "capacity": 60, "room_type": "lecture"},
+    {"room_id": "R102", "capacity": 40, "room_type": "lecture"},
+    {"room_id": "R103", "capacity": 30, "room_type": "lab"}
+  ],
+
+  "faculty": [
+    "Dr. Sharma",
+    "Dr. Patel",
+    "Dr. Gupta",
+    "Prof. Singh",
+    "Prof. Verma"
+  ],
+
+  "student_groups": [
+    "CS-A",
+    "CS-B",
+    "IT-A"
+  ],
+
+  "sessions": [
+    {"session_id": "S01", "subject": "Soft Computing",       "faculty": "Dr. Sharma",   "student_group": "CS-A"},
+    {"session_id": "S02", "subject": "Soft Computing",       "faculty": "Dr. Sharma",   "student_group": "CS-B"},
+    {"session_id": "S03", "subject": "Data Structures",      "faculty": "Dr. Patel",    "student_group": "CS-A"},
+    {"session_id": "S04", "subject": "Data Structures",      "faculty": "Dr. Patel",    "student_group": "CS-B"},
+    {"session_id": "S05", "subject": "Database Systems",     "faculty": "Dr. Gupta",    "student_group": "CS-A"},
+    {"session_id": "S06", "subject": "Database Systems",     "faculty": "Dr. Gupta",    "student_group": "IT-A"},
+    {"session_id": "S07", "subject": "Operating Systems",    "faculty": "Prof. Singh",  "student_group": "CS-B"},
+    {"session_id": "S08", "subject": "Operating Systems",    "faculty": "Prof. Singh",  "student_group": "IT-A"},
+    {"session_id": "S09", "subject": "Computer Networks",    "faculty": "Prof. Verma",  "student_group": "CS-A"},
+    {"session_id": "S10", "subject": "Computer Networks",    "faculty": "Prof. Verma",  "student_group": "IT-A"}
+  ]
+}
